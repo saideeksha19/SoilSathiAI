@@ -1,0 +1,133 @@
+import type { MessageTable } from "./types";
+
+export const commonMessages: MessageTable = {
+  "nav.home": { en: "Overview", kn: "ಅವಲೋಕನ", hi: "अवलोकन" },
+  "nav.analyzer": { en: "Soil analyzer", kn: "ಮಣ್ಣು ವಿಶ್ಲೇಷಕ", hi: "मृदा विश्लेषक" },
+  "nav.analysis": { en: "Soil intelligence", kn: "ಮಣ್ಣಿನ ವಿಶ್ಲೇಷಣೆ", hi: "मृदा विश्लेषण" },
+  "nav.compare": { en: "Crop comparison", kn: "ಬೆಳೆ ಹೋಲಿಕೆ", hi: "फसल तुलना" },
+  "nav.simulator": { en: "What-if simulator", kn: "ಏನಾದರೆ ಸಿಮ್ಯುಲೇಟರ್", hi: "व्हाट-इफ सिम्युलेटर" },
+  "nav.explain": { en: "Explanation", kn: "ವಿವರಣೆ", hi: "व्याख्या" },
+  "nav.report": { en: "Decision report", kn: "ನಿರ್ಧಾರ ವರದಿ", hi: "निर्णय रिपोर्ट" },
+  "nav.sources": { en: "Sources", kn: "ಮೂಲಗಳು", hi: "स्रोत" },
+
+  "action.compareCrops": { en: "Compare crops", kn: "ಬೆಳೆಗಳನ್ನು ಹೋಲಿಸಿ", hi: "फसलों की तुलना" },
+  "action.openSimulator": {
+    en: "Open what-if simulator",
+    kn: "ಏನಾದರೆ ಸಿಮ್ಯುಲೇಟರ್ ತೆರೆಯಿರಿ",
+    hi: "व्हाट-इफ सिम्युलेटर खोलें",
+  },
+  "action.viewReport": { en: "View decision report", kn: "ನಿರ್ಧಾರ ವರದಿ ನೋಡಿ", hi: "निर्णय रिपोर्ट देखें" },
+  "action.editValues": { en: "Edit values", kn: "ಮೌಲ್ಯಗಳನ್ನು ಸರಿಪಡಿಸಿ", hi: "मान संपादित करें" },
+  "action.print": { en: "Print / save PDF", kn: "ಮುದ್ರಿಸಿ / PDF ಉಳಿಸಿ", hi: "प्रिंट / PDF सहेजें" },
+  "action.reset": {
+    en: "Reset to measured",
+    kn: "ಅಳೆದ ಮೌಲ್ಯಗಳಿಗೆ ಮರಳಿಸಿ",
+    hi: "मापे गए मान पर लौटें",
+  },
+  "action.useInReport": {
+    en: "Use scenario in report",
+    kn: "ಸನ್ನಿವೇಶವನ್ನು ವರದಿಯಲ್ಲಿ ಬಳಸಿ",
+    hi: "परिदृश्य रिपोर्ट में जोड़ें",
+  },
+  "action.testScenario": { en: "Test a scenario", kn: "ಸನ್ನಿವೇಶ ಪರೀಕ್ಷಿಸಿ", hi: "परिदृश्य जाँचें" },
+  "action.explainResults": { en: "Explain results", kn: "ಫಲಿತಾಂಶ ವಿವರಿಸಿ", hi: "परिणाम समझाएँ" },
+  "action.addExplanation": { en: "Add an explanation", kn: "ವಿವರಣೆ ಸೇರಿಸಿ", hi: "व्याख्या जोड़ें" },
+  "action.selectAll": { en: "Select all", kn: "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ", hi: "सभी चुनें" },
+  "action.clear": { en: "Clear", kn: "ತೆರವುಗೊಳಿಸಿ", hi: "हटाएँ" },
+  "action.back": { en: "Back", kn: "ಹಿಂದೆ", hi: "वापस" },
+
+  "label.parameter": { en: "Parameter", kn: "ಪರಾಮಿತಿ", hi: "पैरामीटर" },
+  "label.measured": { en: "Measured", kn: "ಅಳೆದ ಮೌಲ್ಯ", hi: "मापा मान" },
+  "label.value": { en: "Value", kn: "ಮೌಲ್ಯ", hi: "मान" },
+  "label.unit": { en: "Unit", kn: "ಘಟಕ", hi: "इकाई" },
+  "label.original": { en: "Original", kn: "ಮೂಲ ಮೌಲ್ಯ", hi: "मूल मान" },
+  "label.source": { en: "Source", kn: "ಮೂಲ", hi: "स्रोत" },
+  "label.confidence": { en: "Confidence", kn: "ವಿಶ್ವಾಸ", hi: "विश्वास" },
+  "label.notReported": { en: "Not reported", kn: "ವರದಿಯಾಗಿಲ್ಲ", hi: "दर्ज नहीं" },
+  "label.hypothetical": { en: "Hypothetical", kn: "ಕಾಲ್ಪನಿಕ", hi: "काल्पनिक" },
+  "label.strengths": { en: "Strengths", kn: "ಅನುಕೂಲಗಳು", hi: "अनुकूलताएँ" },
+  "label.constraints": { en: "Constraints", kn: "ಮಿತಿಗಳು", hi: "सीमाएँ" },
+  "label.missingData": {
+    en: "Missing or unreliable data",
+    kn: "ಕಾಣೆಯಾದ ಅಥವಾ ಅವಿಶ್ವಸನೀಯ ಮಾಹಿತಿ",
+    hi: "अनुपलब्ध या अविश्वसनीय डेटा",
+  },
+  "label.why": { en: "Why", kn: "ಏಕೆ", hi: "क्यों" },
+  "label.dataComplete": { en: "{pct}% data complete", kn: "{pct}% ಡೇಟಾ ಪೂರ್ಣ", hi: "{pct}% डेटा पूर्ण" },
+  "label.verification": { en: "Verification", kn: "ಪರಿಶೀಲನೆ", hi: "सत्यापन" },
+  "label.basis": { en: "Basis", kn: "ಆಧಾರ", hi: "आधार" },
+  "label.scope": { en: "Scope", kn: "ವ್ಯಾಪ್ತಿ", hi: "दायरा" },
+  "label.notUsed": {
+    en: "Not used by this crop's rules",
+    kn: "ಈ ಬೆಳೆಯ ನಿಯಮಗಳಲ್ಲಿ ಬಳಸಲಾಗಿಲ್ಲ",
+    hi: "इस फसल के नियमों में प्रयुक्त नहीं",
+  },
+  "label.waterNeed": { en: "Water need", kn: "ನೀರಿನ ಅಗತ್ಯ", hi: "जल आवश्यकता" },
+  "label.reference": { en: "reference", kn: "ಉಲ್ಲೇಖ", hi: "संदर्भ" },
+  "label.sample": { en: "Sample", kn: "ಮಾದರಿ", hi: "नमूना" },
+  "label.location": { en: "Location", kn: "ಸ್ಥಳ", hi: "स्थान" },
+  "label.texture": { en: "Texture", kn: "ಮಣ್ಣಿನ ವಿನ್ಯಾಸ", hi: "मृदा बनावट" },
+  "label.notProvided": { en: "not provided", kn: "ನೀಡಿಲ್ಲ", hi: "नहीं दिया" },
+  "label.deterministic": { en: "Deterministic rules", kn: "ನಿರ್ಣಾಯಕ ನಿಯಮಗಳು", hi: "नियतात्मक नियम" },
+
+  "note.referenceOnly": {
+    en: "Reference categories, not a local recommendation.",
+    kn: "ಇವು ಉಲ್ಲೇಖ ವರ್ಗಗಳು, ಸ್ಥಳೀಯ ಶಿಫಾರಸು ಅಲ್ಲ.",
+    hi: "ये संदर्भ श्रेणियाँ हैं, स्थानीय सिफ़ारिश नहीं।",
+  },
+  "note.language": { en: "Language", kn: "ಭಾಷೆ", hi: "भाषा" },
+
+  "shell.reportLoaded": { en: "Report loaded", kn: "ವರದಿ ಲೋಡ್ ಆಗಿದೆ", hi: "रिपोर्ट लोड है" },
+  "shell.noReport": { en: "No report yet", kn: "ಇನ್ನೂ ವರದಿ ಇಲ್ಲ", hi: "अभी कोई रिपोर्ट नहीं" },
+  "shell.start": { en: "Start analysis", kn: "ವಿಶ್ಲೇಷಣೆ ಆರಂಭಿಸಿ", hi: "विश्लेषण शुरू करें" },
+  "shell.menuOpen": { en: "Open menu", kn: "ಮೆನು ತೆರೆಯಿರಿ", hi: "मेनू खोलें" },
+  "shell.menuClose": { en: "Close menu", kn: "ಮೆನು ಮುಚ್ಚಿ", hi: "मेनू बंद करें" },
+
+  "label.dataCompleteness": { en: "Data completeness", kn: "ಡೇಟಾ ಪೂರ್ಣತೆ", hi: "डेटा पूर्णता" },
+  "label.optimalBand": {
+    en: "Within documented optimal ranges",
+    kn: "ದಾಖಲಿತ ಉತ್ತಮ ಶ್ರೇಣಿಗಳೊಳಗೆ",
+    hi: "प्रलेखित उत्तम श्रेणियों में",
+  },
+  "label.limitingFactors": { en: "Limiting factors", kn: "ಮಿತಿಗೊಳಿಸುವ ಅಂಶಗಳು", hi: "सीमित करने वाले कारक" },
+  "label.waterDocumented": { en: "Documented water need", kn: "ದಾಖಲಿತ ನೀರಿನ ಅಗತ್ಯ", hi: "प्रलेखित जल आवश्यकता" },
+
+  "card.compareDetail": { en: "Compare in detail", kn: "ವಿವರವಾಗಿ ಹೋಲಿಸಿ", hi: "विस्तार से तुलना करें" },
+  "card.inFavour": { en: "In favour", kn: "ಪಕ್ಷದಲ್ಲಿ", hi: "पक्ष में" },
+  "card.noOptimal": {
+    en: "No measured parameter lands in this crop's optimal band.",
+    kn: "ಯಾವ ಅಳತೆಯೂ ಈ ಬೆಳೆಯ ಉತ್ತಮ ಶ್ರೇಣಿಯಲ್ಲಿ ಬರುವುದಿಲ್ಲ.",
+    hi: "कोई मापा पैरामीटर इस फसल की उत्तम श्रेणी में नहीं है।",
+  },
+  "card.noConstraints": {
+    en: "No constraints triggered by the measured values.",
+    kn: "ಅಳೆದ ಮೌಲ್ಯಗಳಿಂದ ಯಾವ ಮಿತಿಯೂ ಉಂಟಾಗಿಲ್ಲ.",
+    hi: "मापे गए मानों से कोई सीमा उत्पन्न नहीं हुई।",
+  },
+  "card.missingTitle": { en: "Missing information", kn: "ಕಾಣೆಯಾದ ಮಾಹಿತಿ", hi: "अनुपलब्ध जानकारी" },
+  "card.missingDetail": {
+    en: "{count} parameter missing or unverified. See the comparison for detail.",
+    kn: "{count} ಪರಾಮಿತಿ ಕಾಣೆಯಾಗಿದೆ ಅಥವಾ ಪರಿಶೀಲಿಸದಿದೆ. ವಿವರಗಳಿಗಾಗಿ ಹೋಲಿಕೆ ನೋಡಿ.",
+    hi: "{count} पैरामीटर अनुपलब्ध या असत्यापित। विवरण के लिए तुलना देखें।",
+  },
+  "card.modelLimitation": { en: "Model limitation: ", kn: "ಮಾಡೆಲ್ ಮಿತಿ: ", hi: "मॉडल सीमा: " },
+
+  "chart.note": {
+    en: "Counts of the six soil parameters per crop, classified by the deterministic rules. The chart shows coverage and constraint type, not a yield score.",
+    kn: "ಪ್ರತಿ ಬೆಳೆಗೆ ಆರು ಮಣ್ಣಿನ ಪರಾಮಿತಿಗಳ ಎಣಿಕೆ, ನಿರ್ಣಾಯಕ ನಿಯಮಗಳಿಂದ ವರ್ಗೀಕರಿಸಲಾಗಿದೆ. ಈ ಚಾರ್ಟ್ ಲಭ್ಯತೆ ಮತ್ತು ಮಿತಿ ಪ್ರಕಾರವನ್ನು ತೋರಿಸುತ್ತದೆ, ಇಳುವರಿ ಅಂಕ ಅಲ್ಲ.",
+    hi: "प्रत्येक फसल के लिए छह मृदा पैरामीटरों की गिनती, नियतात्मक नियमों से वर्गीकृत। यह चार्ट कवरेज और सीमा प्रकार दिखाता है, उपज स्कोर नहीं।",
+  },
+  "chart.verify": { en: "Needs verification", kn: "ಪರಿಶೀಲನೆ ಬೇಕು", hi: "सत्यापन आवश्यक" },
+
+  "empty.title": {
+    en: "Load or enter a soil report first",
+    kn: "ಮೊದಲು ಮಣ್ಣಿನ ವರದಿ ಲೋಡ್ ಮಾಡಿ ಅಥವಾ ನಮೂದಿಸಿ",
+    hi: "पहले मृदा रिपोर्ट लोड करें या दर्ज करें",
+  },
+  "empty.body": {
+    en: "{purpose} needs validated soil measurements. Upload a report, enter values manually, or load the synthetic sample to explore the full workflow.",
+    kn: "{purpose} ಗೆ ಪರಿಶೀಲಿತ ಮಣ್ಣಿನ ಅಳತೆಗಳು ಬೇಕು. ವರದಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ಮೌಲ್ಯಗಳನ್ನು ಕೈಯಿಂದ ನಮೂದಿಸಿ, ಅಥವಾ ಸಂಪೂರ್ಣ ಕಾರ್ಯಪ್ರವಾಹ ನೋಡಲು ಕೃತಕ ಮಾದರಿ ಲೋಡ್ ಮಾಡಿ.",
+    hi: "{purpose} के लिए सत्यापित मृदा माप आवश्यक हैं। रिपोर्ट अपलोड करें, मान मैन्युअल रूप से दर्ज करें, या पूरा कार्यप्रवाह देखने के लिए कृत्रिम नमूना लोड करें।",
+  },
+  "empty.action": { en: "Go to soil analyzer", kn: "ಮಣ್ಣು ವಿಶ್ಲೇಷಕಕ್ಕೆ ಹೋಗಿ", hi: "मृदा विश्लेषक पर जाएँ" },
+};
